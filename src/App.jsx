@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Event from './Components/Events/Event';
+import Event from './Components/Events/Event2';
 import Home from './Components/Home';
 import About from './Components/about/About';
 import Team from "./Components/team/teams"
@@ -11,9 +11,9 @@ import Faculty from './Components/faculties/faculties';
 
 const App = () => {
   return (
-    <div>
-     <Home />
-    {/* <Event/> */}
+    <div className='w-full'>
+    <Home />
+    <Event/>
     <Community />
     <About/>
     <Faculty />

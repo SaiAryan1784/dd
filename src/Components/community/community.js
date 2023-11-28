@@ -4,7 +4,7 @@ import Background from "./background2.jpeg"
 
 const Community = () => {
     return (
-        <div>
+        <div className='w-full'>
             <div class="c-container">
                 <div class="column">
                     <div class="section">
