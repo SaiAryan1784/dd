@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+body{
+    background:url("./panoramic-view-sunset-night.jpg") no-repeat center center/cover; 
+
+}
+.column2{
+    display: flex;
+    margin-left:50px;
+}
+.div1 h1{
+     padding-top: 100px;
+    color: #5A91E2;
+    font-size: 76px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.div1{
+    text-align: center;
+    color: #5A91E2 ;
+}
+.column{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:38px;
+    height: 100vh;
+}
+.event-card{
+    background-color:#21313c;
+    margin:11px;
+    align-items: flex-start;
+    border-radius:16px;
+    width: 301px;
+    height: 400px;
+    min-height: 112px;
+    flex-shrink:0;
+    justify-content: center;
+}
+.event-card-image{
+    height:170px;
+    margin-bottom:15px;
+    background-size:cover;
+    border-radius: 0px;
+    
+}
+.register{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+.event-card a{
+    background-color:#5A91E2;
+    color:black;
+    padding: 8.8px 15.46px 9.4px 16.8px;
+    display:block;
+    text-align: center;
+    border:1px solid white;
+    border-radius: 4px;
+    margin:2px 70px;
+}
+.event-card:hover{
+    border:2px solid #5A91E2;
+    cursor:pointer;
+    transform: scale(1.05);
+    transition:all 0.8s ease;
+}
+.event-card h2{
+    color: white;
+    font-family: Poppins;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding:0px;
+    margin-left: 5px;
+}
+.event-card  p{
+    color: #CCC;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding:6px;
+    margin-left: 5px;
+}
+

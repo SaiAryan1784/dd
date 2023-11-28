@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Stint+Ultra+Expanded&family=Ultra&display=swap');
+*{
+    font-family: 'Orbitron', sans-serif;
+    margin:  0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+.c-container {
+
+    display: flex; /* Use flexbox for side-by-side layout */
+    background: url("./panoramic-view-sunset-night.jpg") no-repeat center center/cover ;
+    flex-wrap: wrap;
+}
+.column {
+    flex: 50%; /* Each column takes up equal space */
+    padding: 20px;
+}
+.column1 { 
+    flex: 50%; /* Each column takes up equal space */
+    padding: auto;
+}
+.section h1 {
+    font-size: 4rem;
+}
+p {
+    font-size: 16px;
+    line-height: 1.4;
+}
+/* Style the sections */
+.section 
+{
+    margin-bottom: 50px;
+    padding: 10px;
+    border-radius: 5px;
+  
+}
+hr {
+    opacity: 0.6;
+
+}
+.p1{
+    font-size: 3rem; 
+    margin:0px;
+    padding: 0px;
+    color: #5A91E2;
+    line-height: 60px;
+}
+.p2{
+    margin:0px;
+    padding:0px;
+    font-size: 1.4rem; 
+    color: #ffffff;
+    opacity:0.6;
+    font-family:  serif;
+    line-height: 30px;
+
+}
+.image{
+    width: 100%; 
+}
+.image img{
+    height: auto;
+    width: 100%;
+}
+
+@media only screen and (max-width: 450px){
+ .image{
+    width: 90%;
+ }
+.section h1{
+    font-size:2.35rem;
+ }
+ .p1{
+   font-size: 2.2rem;
+ }
+ .p2{
+    font-size: 1rem;
+ }
+}

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Stint+Ultra+Expanded&family=Ultra&display=swap');
+.h1-name{
+    /* -webkit-text-stroke: 0.5px #00000091; */
+    animation: back 25s linear infinite;
+    background: url(../Assets/Screenshot\ 2023-11-07\ 223953.png);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Ultra', serif;
+    font-size: 8rem;
+}
+.h1-name1{
+  font-size: 3.5rem;
+}
+@keyframes back {
+    100% {
+      background-position: 2000px 0;
+    }
+  }

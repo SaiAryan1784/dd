@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.bottom{
+    background: url("./panoramic-view-sunset-night.jpg") no-repeat center center/cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.developed{
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+.developed h2{
+    color: #696969;
+    font-size: 3rem;
+    line-height: 57px;
+    font-weight: 600;
+}
+
+.letsConnect{  
+    display: flex;
+    height: 300px;
+    font-family: 'orbitron';
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.letsConnect h1{
+    font-size: 5rem;
+    line-height: 80px;
+    color: white;
+}
+span{
+    color: #5A91E2;
+}
+
+.lets{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.button{
+    background-color: #5A91E2;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 6px 12px;
+}
+
+
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap
+}
+.content{
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.list{
+    padding-bottom: 12px;
+}
+.list a{
+    color: white;
+    font-size: 1.2rem;
+    line-height: 30px;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+    padding-bottom:15px;
+}
+i{
+    cursor: pointer;
+    padding-right:18px;
+}
+@media only screen and (max-width: 450px){
+.developed h2{
+    font-size: 1.1rem;
+    line-height: 40px;
+}
+.letsConnect h1{
+    font-size: 4rem;
+    line-height: 55px;
+}
+.lets{
+    font-size: 1rem;
+}
+.footer{
+    padding-left:10px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.content p{
+    font-size: 1.3rem;
+}
+.list a{
+    font-size: 1.3rem;
+}
+
+}
